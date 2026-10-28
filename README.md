@@ -98,6 +98,13 @@ writes, or anything in comments and strings.
 - A cleanup call is not proof the right files are removed, only that
   a cleanup mechanism exists in the source.
 
+
+## Development
+
+```sh
+python3 -m unittest discover -s tests -v
+```
+
 ## License
 
 MIT
